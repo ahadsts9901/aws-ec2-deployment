@@ -2,7 +2,7 @@ import express from "express"
 
 const app = express()
 
-app.use("/", (req, res) => res.send("hello from elasticbean stalk"))
+app.use("/", (req, res) => res.send("hello from ec2"))
 
 const PORT = process.env.PORT || 5002
 
